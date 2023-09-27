@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import SearchBar from './Components/SearchBar';
+import BookStore from './Components/BookStore';
 import "./style.css"
 function App() {
   return (
     <div className="App">
-        <SearchBar />
+        <BookStore />
     </div>
   );
 }

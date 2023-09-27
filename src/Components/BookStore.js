@@ -8,7 +8,7 @@ import image1 from "../Images/image1.png";
 import image2 from "../Images/image2.png";
 import image3 from "../Images/image3.png";
 import image4 from "../Images/image4.png";
-const SearchBar = () => {
+const BookStore = () => {
   const [data, setData] = useState([]);
   const [display, setDisplay] = useState("");
   const [searchInput, setSearchInput] = useState("");
@@ -200,4 +200,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default BookStore;
